@@ -1,0 +1,7 @@
+@import '../../SCSSConstants/mixins.scss';
+
+.app {
+	height: 320px;
+	@include displayFlexView(column, flex-end, center);
+	padding-top: 20px;
+}

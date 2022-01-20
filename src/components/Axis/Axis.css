@@ -1,0 +1,158 @@
+.axis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 235px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.axis__main {
+  width: 875px;
+  height: 83px;
+  background-image: url(../../images/number_axis.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.axis__arrow-container {
+  display: none;
+}
+
+.axis__arrow-container_visible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 83px;
+}
+
+.axis__arrow-container_position_1 {
+  left: 30px;
+}
+
+.axis__arrow-container_position_6 {
+  left: 268px;
+}
+
+.axis__arrow-container_position_7 {
+  left: 307px;
+}
+
+.axis__arrow-container_position_8 {
+  left: 346px;
+}
+
+.axis__arrow-container_position_9 {
+  left: 385px;
+}
+
+.axis__input {
+  width: 25px;
+  margin: 10px;
+  padding-left: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.axis__input_visibility_invisible {
+  display: none;
+}
+
+.axis__input_right_wrong {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  color: #ff0000;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.axis__rightTerm {
+  display: none;
+}
+
+.axis__rightTerm_visible {
+  display: block;
+  margin: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.axis__arrow {
+  background-image: url(../../images/arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.axis__arrow_size_2 {
+  width: 80px;
+  height: 25px;
+}
+
+.axis__arrow_size_3 {
+  width: 120px;
+  height: 36px;
+}
+
+.axis__arrow_size_4 {
+  width: 160px;
+  height: 47px;
+}
+
+.axis__arrow_size_5 {
+  width: 200px;
+  height: 58px;
+}
+
+.axis__arrow_size_6 {
+  width: 248px;
+  height: 71px;
+}
+
+.axis__arrow_size_7 {
+  width: 285px;
+  height: 83px;
+}
+
+.axis__arrow_size_8 {
+  width: 330px;
+  height: 94px;
+}
+
+.axis__arrow_size_9 {
+  width: 370px;
+  height: 105px;
+}

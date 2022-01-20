@@ -1,3 +1,5 @@
+Приложение для обучения сложению с помощью оси для слогаемых a ​​∈ [6, 9], b ​∈ [2, 8].
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

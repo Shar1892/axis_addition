@@ -1,0 +1,46 @@
+@import '../../SCSSConstants/mixins.scss';
+
+.task {
+	@include displayFlexView(row, flex-start, center);
+	padding: 10px;
+}
+
+.task__term {
+	margin: 0;
+	@include fontStyle(normal, #000000, 25px, 35px);
+}
+
+.task__term_wrong {
+	background-color: #fffb00;
+}
+
+.task__sign {
+	margin: 0;
+	@include fontStyle(normal, #000000, 25px, 35px);
+}
+
+.task__result {
+	margin: 0;
+	width: 40px;
+	@include fontStyle(normal, #000000, 25px, 35px);
+}
+
+.task__result_invisible {
+	display: none;
+}
+
+.task__answer-input {
+	display: none;
+}
+
+.task__answer-inpu_visible_visible {
+	display: block;
+	width: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	@include fontStyle(normal, #000000, 25px, 29px);
+}
+
+.task__answer-input_rigth_wrong {
+	@include fontStyle(normal, #ff0000, 25px, 29px);
+}
